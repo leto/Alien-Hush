@@ -5,7 +5,7 @@ use warnings;
 use base qw( Alien::Base );
 
 # ABSTRACT: Discover or download and install Hush
-# # VERSION
+# # VERSION 8888
 # # ALIEN SYNOPSIS
 # # ALIEN DESCRIPTION
 # # ALIEN SEE ALSO

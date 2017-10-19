@@ -3,10 +3,10 @@ use warnings;
 
 use Alien::Base::ModuleBuild;
 
-my $builder = Alien::Base::ModuleBuild->new(
-  module_name   => 'Alien::Hush',
-  dist_abstract => 'Easy installation of the Hush cryptocoin full node daemon',
-  license       => 'perl',
+my $builder          = Alien::Base::ModuleBuild->new(
+  module_name        => 'Alien::Hush',
+  dist_abstract      => 'Easy installation of the Hush cryptocoin full node daemon',
+  license            => 'perl',
   configure_requires => {
     'Alien::Base::ModuleBuild' => 0,
     'Module::Build'            => '0.38',
@@ -16,8 +16,9 @@ my $builder = Alien::Base::ModuleBuild->new(
     'parent'      => 0,
     'Alien::Base' => 0,
   },
-  dist_author => 'Duke Leto <duke@leto.net>',
-  alien_name  => 'hush',
+  dist_version     => '0.8888',
+  dist_author      => 'Duke Leto <duke@leto.net>',
+  alien_name       => 'hush',
   alien_repository => [
     {
       # Hardcoded to our latest release
