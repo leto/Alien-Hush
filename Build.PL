@@ -20,15 +20,16 @@ my $builder = Alien::Base::ModuleBuild->new(
   alien_name => 'hush',
   alien_repository => [
     {
-      protocol => 'http',
-      #protocol => 'https',
-      host     => 'leto.net',
-      location => '/tmp/hush.html',
-      pattern  => qr/hush-1.0.12.tar.gz/,
+      protocol => 'https',
+      host     => 'zcash.dl.mercerweiss.com',
+      location => '/hush.html',
+      # Hardcoded to our latest release
+      pattern  => /hush-([\d.]+)\.tar\.gz/,
     },
   ],
   alien_build_commands => [
-    './zcutil/build.sh',
+      # TODO: detect number of procs
+    './zcutil/build.sh -j2',
   ],
 
   meta_merge => {
