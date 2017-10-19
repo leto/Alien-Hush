@@ -17,14 +17,19 @@ my $builder = Alien::Base::ModuleBuild->new(
     'Alien::Base' => 0,
   },
   dist_author => 'Duke Leto <duke@leto.net>',
-  alien_name => 'hush',
+  alien_name  => 'hush',
   alien_repository => [
     {
-      protocol => 'https',
-      host     => 'zcash.dl.mercerweiss.com',
-      location => '/hush.html',
       # Hardcoded to our latest release
-      pattern  => /hush-([\d.]+)\.tar\.gz/,
+      #exact_filename => 'hush-1.0.12.tar.gz',
+      #location       => '/',
+      #protocol       => 'https',
+      # CDN which hosts the Zcash proving key, good enough
+      #host           => 'zcash.dl.mercerweiss.com',
+
+      exact_filename => 'hush-1.0.12.tar.gz',
+      location       => 'src',
+      protocol       => 'local',
     },
   ],
   alien_build_commands => [
