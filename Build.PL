@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use File::Spec::Functions;
 
 use Alien::Base::ModuleBuild;
 
@@ -19,15 +20,12 @@ my $builder          = Alien::Base::ModuleBuild->new(
   dist_version     => '0.8888',
   dist_author      => 'Duke Leto <duke@leto.net>',
   alien_name       => 'hush',
+  alien_env        => {
+      HUSH_PUPPY   => 1,
+  },
   alien_repository => [
     {
       # Hardcoded to our latest release
-      #exact_filename => 'hush-1.0.12.tar.gz',
-      #location       => '/',
-      #protocol       => 'https',
-      # CDN which hosts the Zcash proving key, good enough
-      #host           => 'zcash.dl.mercerweiss.com',
-
       exact_filename => 'hush-1.0.12.tar.gz',
       location       => 'src',
       protocol       => 'local',
@@ -35,7 +33,7 @@ my $builder          = Alien::Base::ModuleBuild->new(
   ],
   alien_build_commands => [
       # TODO: detect number of procs
-    './zcutil/build.sh -j2',
+     catfile('zcutil','build.sh') . ' -j2',
   ],
 
   meta_merge => {
