@@ -2,7 +2,11 @@
 
 Alien::Hush is an interface to the [Hush](https://myhush.org) privacy coin.
 
+Please come join our [Discord](https://discord.io/hush/)
+
 # Dependencies
+
+This module requires Alien::Base.
 
 ## CPAN distribution dependencies
 
