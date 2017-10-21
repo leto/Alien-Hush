@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 use File::Spec::Functions;
-
 use Alien::Base::ModuleBuild;
 
 my $builder          = Alien::Base::ModuleBuild->new(
@@ -44,4 +43,5 @@ my $builder          = Alien::Base::ModuleBuild->new(
   },
 );
 $builder->create_build_script;
+print "Have a Hush Puppy kind of day!\n";
 

@@ -19,12 +19,21 @@ on the Peer-to-Peer port 8888.
 
 # Installation
 
-To install this module, run the following commands:
+To install this module from source code, run the following commands:
 
     perl Build.PL
     ./Build
     ./Build test
     ./Build install clean
+
+If you just want to install this module with your favorite CPAN client:
+
+    cpan  Alien::Hush
+OR
+    cpanm Alien::Hush
+
+to use the beauty of Perl CPAN infrastructure via your local mirror, to
+install Hush.
 
 # Support
 
