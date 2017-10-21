@@ -12,9 +12,10 @@ my $builder          = Alien::Base::ModuleBuild->new(
     'Module::Build'            => '0.38',
   },
   requires => {
-    'perl'        => '5.8.1',
-    'parent'      => 0,
-    'Alien::Base' => 0,
+    'perl'             => '5.8.1',
+    'parent'           => 0,
+    'Alien::Base'      => 0,
+    'Alien::Autotools' => 0,
   },
   dist_version     => '0.8888',
   dist_author      => 'Duke Leto <duke@leto.net>',
