@@ -35,6 +35,12 @@ HUSH: zcB3LvCwYPdvVmNmTvEFdFGwb4teocrPnVD8wvBgMn8ZKo5Vq9ypJLpAuqUM31hEbBnSHCjCpa
 
 Cryptocoins make the world go round and round.
 
+=head1 SUPPORTED PLATFORMS
+
+Hush has upstream and up-upstream dependencies which are very fickle about which
+operating systems they will compile on. If you would like to help make things
+work on your platform, please contact us.
+
 =head1 SEE ALSO
 
 Bitcoin, Zcash, The Future
