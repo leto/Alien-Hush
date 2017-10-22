@@ -2,8 +2,15 @@
 
 use strict;
 use warnings;
+use Config;
 use Test::More;
+use lib 'inc';
 
-# todo
-ok(1);
+use_ok( 'Alien::Hush' );
+
+my $hush_version= '1.0.12';
+my $arch        = $Config{archname};
+diag( "Testing Alien::Hush $Alien::Hush::VERSION with hush $hush_version on $arch, Perl ($^X) $]" );
+
+done_testing;
 
