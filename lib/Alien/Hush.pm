@@ -2,7 +2,10 @@ package Alien::Hush;
 use strict;
 use warnings;
 use base qw( Alien::Base );
-our $VERSION = 0.8888;
+
+our $VERSION      = 0.8888;
+# so other thing can ask us which version of Hush we have
+our $HUSH_VERSION = '1.0.12';
 
 =head1 NAME
 
