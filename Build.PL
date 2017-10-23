@@ -14,7 +14,7 @@ my $builder          = Alien::Base::ModuleBuild->new(
   requires => {
     'perl'             => '5.8.1',
     'parent'           => 0,
-    'Alien::Base'      => 0,
+    'Alien::Base'      => '1.25',
     'Alien::Autotools' => 0,
   },
   dist_version     => '0.8888',
@@ -33,7 +33,7 @@ my $builder          = Alien::Base::ModuleBuild->new(
   ],
   alien_build_commands => [
       # TODO: detect number of procs
-     catfile('zcutil','build.sh') . ' -j2',
+     catfile('zcutil','build.sh') . " -j2",
   ],
 
   meta_merge => {
