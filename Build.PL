@@ -17,7 +17,7 @@ my $builder          = Alien::Base::ModuleBuild->new(
     'Alien::Base'      => '1.25',
     'Alien::Autotools' => 0,
   },
-  dist_version     => '0.8888',
+  dist_version     => '0.8889',
   dist_author      => 'Duke Leto <duke@leto.net>',
   alien_name       => 'hush',
   alien_env        => {
