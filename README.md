@@ -1,6 +1,8 @@
 # Alien::Hush
 
-Alien::Hush is an interface to the [Hush](https://myhush.org) privacy coin.
+Alien::Hush is a Perl interface to the [Hush](https://myhush.org) privacy coin.
+Right now, it mostly provides an easy way to download Hush from The Perl World,
+it may provide custom compilation options in the future.
 
 Please come join our [Discord](https://discord.io/hush/)
 
@@ -35,6 +37,14 @@ OR
 to use the beauty of Perl CPAN infrastructure via your local mirror, to
 install Hush.
 
+# Can I Support This Awesome stuff?
+
+Please send your ZEC donations to
+
+zcZLVdeNHvbw58ch56RWi92ws8hweLHyxhoT6jniFKd8kkBPXPR5E46YXzAqXhrfagtwRojAtumg4M3kmrHfZPU6m63Rj5z
+
+to support this CPAN module. Thanks!
+
 # Support
 
 After installing, you can find documentation for this module with the
@@ -47,4 +57,4 @@ perldoc command:
 Copyright (C) 2017 Jonathan "Duke" Leto
 
 This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself. Fuck Yeah.
+under the same terms as Perl itself. Fuck Yeah!
