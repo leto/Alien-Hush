@@ -46,7 +46,7 @@ work on your platform, please contact us.
 
 =head1 SEE ALSO
 
-Bitcoin, Zcash, The Future
+Alien::Zcash, Bitcoin, The Future
 
 =head1 COPYRIGHT
 
