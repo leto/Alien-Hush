@@ -21,7 +21,7 @@ my $builder          = Alien::Base::ModuleBuild->new(
   dist_author      => 'Duke Leto <duke@leto.net>',
   alien_name       => 'hush',
   alien_env        => {
-      HUSH_PUPPY   => 1,
+      ALIEN_HUSH   => 1,
   },
   alien_repository => [
     {
