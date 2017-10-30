@@ -39,9 +39,9 @@ install Hush.
 
 # Can I Support This Awesome stuff?
 
-Please send your ZEC donations to
+Please send your HUSH donations to
 
-zcZLVdeNHvbw58ch56RWi92ws8hweLHyxhoT6jniFKd8kkBPXPR5E46YXzAqXhrfagtwRojAtumg4M3kmrHfZPU6m63Rj5z
+zcASWjRE2J1J1unhYRSeo7WfFg8rydU7E597uUfJpFCDxYs3uVdAMLZfrtPPsKgmT6D2MbvczxpD5SwMU9C6NNqRr4hujpc
 
 to support this CPAN module. Thanks!
 
