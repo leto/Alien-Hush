@@ -36,6 +36,8 @@ the developer via the Hush blockchain :
 
 HUSH: zcB3LvCwYPdvVmNmTvEFdFGwb4teocrPnVD8wvBgMn8ZKo5Vq9ypJLpAuqUM31hEbBnSHCjCpax5mjUi2HEM6NB8x7vfKrV
 
+ZEC: zcZLVdeNHvbw58ch56RWi92ws8hweLHyxhoT6jniFKd8kkBPXPR5E46YXzAqXhrfagtwRojAtumg4M3kmrHfZPU6m63Rj5z
+
 Cryptocoins make the world go round and round.
 
 =head1 SUPPORTED PLATFORMS
